@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name][contenthash].js',
+    publicPath: '/Leaderboard/',
     clean: true,
   },
 
@@ -21,12 +22,6 @@ module.exports = {
     hot: true,
     compress: true,
     historyApiFallback: true,
-  },
-  output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
-    publicPath: "/Leaderboard/",
-    clean: true,
   },
   module: {
     rules: [{

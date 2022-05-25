@@ -1,4 +1,4 @@
-import { setData } from "./submit.js";
+import { setData } from './submit.js';
 
 const listContainer = document.getElementById('list-container');
 
