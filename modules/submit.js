@@ -1,5 +1,4 @@
-const URL =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/stanmega-alert12/scores';
+const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/stanmegalert12/scores';
 
 const setData = async () => {
   const response = await fetch(URL);
