@@ -1,15 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> The leaderboard website displays scores submitted by different players. After clicking submit, the player should click refresh in order to update the leaderboard.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
+- Modules
+- Webpack
 
 ## Live Demo (if available)
 
@@ -18,39 +20,23 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- browser (Google Chrome, firefox)
+- text editor (VScode)
+- terminal
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+git clone git@github.com:virag-ky/Leaderboard.git
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@stanleeeeee](https://github.com/stanleeeeee)
+- Twitter: [@Stanmega89](https://twitter.com/Stanmega89)
 
 ## 🤝 Contributing
 
