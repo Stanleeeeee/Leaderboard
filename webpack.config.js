@@ -22,7 +22,12 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
   },
-
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/Leaderboard/",
+    clean: true,
+  },
   module: {
     rules: [{
       test: /\.css$/i,
