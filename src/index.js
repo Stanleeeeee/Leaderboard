@@ -1,24 +1,24 @@
 /* eslint-disable */
-import _ from "lodash";
+import _ from "\'lodash';
 /* eslint-enable */
 
-import "./style.css";
+import './style.css';
 
 
-const refreshBtn = document.getElementById("refresh");
-const submitBtn = document.getElementById("submit");
-const player = document.getElementById("name");
-const score = document.getElementById("score");
-const errorMessage = document.getElementById("error");
+const refreshBtn = document.getElementById('refresh');
+const submitBtn = document.getElementById('submit');
+const player = document.getElementById('name');
+const score = document.getElementById('score');
+const errorMessage = document.getElementById('error');
 const regex1 = /^\s+$/;
 const regex2 = /^[0-9]+$/;
 
-errorMessage.style.display = "none";
+errorMessage.style.display = 'none';
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('DOMContentLoaded', () => {
   displayScores();
 
-  refreshBtn.addEventListener("click", () => {
+  refreshBtn.addEventListener('click', () => {
     displayScores();
   });
 
