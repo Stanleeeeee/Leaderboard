@@ -4,7 +4,6 @@ import _ from 'lodash';
 
 import './style.css';
 
-
 const refreshBtn = document.getElementById('refresh');
 const submitBtn = document.getElementById('submit');
 const player = document.getElementById('name');
@@ -22,22 +21,22 @@ window.addEventListener('DOMContentLoaded', () => {
     displayScores();
   });
 
-  submitBtn.addEventListener("click", () => {
+  submitBtn.addEventListener('click', () => {
     if (player.value.length === 0 || player.value.match(regex1)) {
       return;
     }
 
     if (!score.value.match(regex2)) {
-      errorMessage.style.display = "block";
-      errorMessage.style.color = "yellow";
-      errorMessage.style.fontSize = "12px";
-      errorMessage.style.lineHeight = "24px";
+      errorMessage.style.display = 'block';
+      errorMessage.style.color = 'yellow';
+      errorMessage.style.fontSize = '12px';
+      errorMessage.style.lineHeight = '24px';
       return;
     }
-    errorMessage.style.display = "none";
+    errorMessage.style.display = 'none';
 
     setScores(player.value, score.value);
-    player.value = "";
-    score.value = "";
+    player.value = '';
+    score.value = '';
   });
 });
