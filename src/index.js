@@ -12,31 +12,3 @@ const errorMessage = document.getElementById('error');
 const regex1 = /^\s+$/;
 const regex2 = /^[0-9]+$/;
 
-errorMessage.style.display = 'none';
-
-window.addEventListener('DOMContentLoaded', () => {
-  displayScores();
-
-  refreshBtn.addEventListener('click', () => {
-    displayScores();
-  });
-
-  submitBtn.addEventListener('click', () => {
-    if (player.value.length === 0 || player.value.match(regex1)) {
-      return;
-    }
-
-    if (!score.value.match(regex2)) {
-      errorMessage.style.display = 'block';
-      errorMessage.style.color = 'yellow';
-      errorMessage.style.fontSize = '12px';
-      errorMessage.style.lineHeight = '24px';
-      return;
-    }
-    errorMessage.style.display = 'none';
-
-    setScores(player.value, score.value);
-    player.value = '';
-    score.value = '';
-  });
-});
