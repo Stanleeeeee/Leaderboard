@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://stanleeeeee.github.io/Leaderboard/)
 
 
 ## Getting Started
